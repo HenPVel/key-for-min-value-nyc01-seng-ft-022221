@@ -26,7 +26,7 @@ min_val=""
         min_val=values[element_index]
         element_index +=1
 
-      
+
       else values[element_index]<min_val
         min_value=values[element_index]
         element_index+=1
