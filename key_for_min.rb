@@ -33,8 +33,8 @@ min_val=""
       else element_index+=1
 
       end
-      
-     key_index=values.find_index(min_value)
+
+     key_index=values.find_index(min_val)
     end
 
 keys[key_index]
