@@ -26,9 +26,6 @@ min_val=""
         min_val=values[element_index]
         element_index +=1
 
-      elsif values[element_index]==nil
-        return nil
-
       elsif values[element_index]<min_val
         min_val=values[element_index]
         element_index+=1
