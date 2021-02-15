@@ -14,8 +14,8 @@ values << value
 
  end
 
-puts keys
-puts values
+p keys
+p values
 
 end
 
