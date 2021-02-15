@@ -16,7 +16,7 @@ values=[]
     end
 
 element_index=0
-min_val=""
+min_val=0
 
     while element_index < values.length do
 
