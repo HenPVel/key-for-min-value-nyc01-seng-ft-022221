@@ -40,4 +40,4 @@ min_val=""
 keys[key_index]
 end
 
-# p key_for_min_value(name_hash)
+p key_for_min_value(name_hash)
