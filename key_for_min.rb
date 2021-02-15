@@ -28,7 +28,7 @@ min_val=""
 
       elsif name_hash=={}
         element_index=values.length+2
-        return nil
+        shutdown=1
 
       elsif values[element_index]<min_val
         min_val=values[element_index]
@@ -40,8 +40,12 @@ min_val=""
 
     end
 
-key_index=values.find_index(min_val)
-keys[key_index]
+if shutdown==1
+  return nil
+
+else
+  key_index=values.find_index(min_val)
+  keys[key_index]
 end
 
 p key_for_min_value(name_hash)
