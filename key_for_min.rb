@@ -5,6 +5,9 @@ name_hash = {}
 
 def key_for_min_value(name_hash)
 
+if name_hash=={}
+
+else
 keys=[]
 values=[]
 
@@ -38,6 +41,7 @@ min_val=""
 
 key_index=values.find_index(min_val)
 keys[key_index]
+end
 end
 
 p key_for_min_value(name_hash)
