@@ -34,9 +34,10 @@ min_val=""
 #binding.pry
       end
 
-     key_index=values.find_index(min_val)
+
     end
 
+key_index=values.find_index(min_val)
 keys[key_index]
 end
 
