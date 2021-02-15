@@ -14,6 +14,8 @@ values=[]
         values << value
 
     end
+p keys
+p values
 
 element_index=0
 min_val=0
