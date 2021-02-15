@@ -21,7 +21,7 @@ min_val=""
     while element_index < values.length do
 
       if element_index==0
-        min_val=values[counter]
+        min_val=values[element_index]
         element_index +=1
 
       elsif values[element_index]<min_val
