@@ -18,7 +18,7 @@ p keys
 p values
 
 element_index=0
-min_val=0
+min_val=""
 
     while element_index < values.length do
 
