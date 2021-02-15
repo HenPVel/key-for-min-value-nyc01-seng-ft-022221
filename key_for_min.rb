@@ -34,5 +34,5 @@ min_val=""
      x=values.find_index(min_value)
     end
 
-keys[x]
+p keys[x]
 end
