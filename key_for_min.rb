@@ -26,6 +26,7 @@ min_val=""
 
       elsif values[element_index]<min_val
         min_value=values[element_index]
+        element_index+=1
 
       else element_index+=1
 
