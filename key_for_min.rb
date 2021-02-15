@@ -26,10 +26,11 @@ min_val=""
         min_val=values[element_index]
         element_index +=1
 
-      else values[element_index]<min_val
+      elsif values[element_index]<min_val
         min_val=values[element_index]
         element_index+=1
 
+      else element_index+=1
       end
      key_index=values.find_index(min_value)
     end
