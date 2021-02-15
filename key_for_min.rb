@@ -47,5 +47,6 @@ else
   key_index=values.find_index(min_val)
   keys[key_index]
 end
+end
 
 p key_for_min_value(name_hash)
