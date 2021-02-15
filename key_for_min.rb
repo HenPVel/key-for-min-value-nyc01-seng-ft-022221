@@ -30,7 +30,6 @@ min_val=""
         min_value=values[element_index]
         element_index+=1
 
-      else element_index+=1
     binding.pry
       end
      key_index=values.find_index(min_value)
