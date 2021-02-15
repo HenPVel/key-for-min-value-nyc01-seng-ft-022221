@@ -34,5 +34,7 @@ min_val=""
      x=values.find_index(min_value)
     end
 
-p keys[x]
+keys[x]
 end
+
+p key_for_min_value(name_hash)
