@@ -26,6 +26,10 @@ min_val=""
         min_val=values[element_index]
         element_index +=1
 
+      elsif name_hash=={}
+        element_index=values.length+2
+        return nil
+
       elsif values[element_index]<min_val
         min_val=values[element_index]
         element_index+=1
@@ -33,7 +37,6 @@ min_val=""
       else element_index+=1
 #binding.pry
       end
-
 
     end
 
