@@ -31,12 +31,12 @@ min_val=""
         element_index+=1
 
       else element_index+=1
-    #binding.pry
+    binding.pry
       end
-     x=values.find_index(min_value)
+     key_index=values.find_index(min_value)
     end
 
-keys[x]
+keys[key_index]
 end
 
 p key_for_min_value(name_hash)
